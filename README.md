@@ -47,7 +47,7 @@ npm install
 3. Update the following variables:
    ```env
    DEEPSEEK_API_KEY=your_actual_deepseek_api_key
-   MONGODB_URI='mongodb+srv://harshgupta4728:HgTg4728@cluster0.3436v8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+   MONGODB_URI='mongodb'
    JWT_SECRET=your_jwt_secret_key
    ```
 
@@ -116,7 +116,7 @@ The application will be available at:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI='mongodb+srv://harshgupta4728:HgTg4728@cluster0.3436v8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGODB_URI='mongodb'
 JWT_SECRET=your-super-secret-jwt-key
 DEEPSEEK_API_KEY=your-deepseek-api-key
 CLIENT_URL=http://localhost:3000

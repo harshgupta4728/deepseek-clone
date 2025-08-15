@@ -62,8 +62,7 @@ app.use(passport.session());
 
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://harshgupta4728:HgTg4728@cluster0.3436v8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-, {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000,

@@ -64,7 +64,7 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Atlas Configuration (Cloud Database)
-MONGODB_URI=mongodb+srv://harshgupta4728:HgTg4728@cluster0.3436v8e.mongodb.net/deepseek-ai-clone?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI=mongodb
 
 # JWT Configuration
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
